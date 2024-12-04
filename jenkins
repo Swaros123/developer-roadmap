@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/Swaros123/developer-roadmap.git'
+                git branch: 'master', url: 'https://github.com/Swaros123/developer-roadmap.git'
             }
         }
         stage('Build') {
